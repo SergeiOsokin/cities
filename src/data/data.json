@@ -1,0 +1,95 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "nameRu": "Москва",
+      "nameEn": "Moscow",
+      "fontSize": "160",
+      "color": "#F56F6F"
+    },
+    {
+      "id": 2,
+      "nameRu": "Санкт-Петербург",
+      "nameEn": "Piter",
+      "fontSize": "100",
+      "color": "#ECAC62"
+    },
+    {
+      "id": 3,
+      "nameRu": "Екатеринбург",
+      "nameEn": "Ekateringurg",
+      "fontSize": "100",
+      "color": "#F4E38A"
+    },
+    {
+      "id": 4,
+      "nameRu": "Магнитогорск",
+      "nameEn": "Magnitogorsk",
+      "fontSize": "140",
+      "color": "#CA8BA9"
+    },
+    {
+      "id": 5,
+      "nameRu": "Тверь",
+      "nameEn": "Tver",
+      "fontSize": "160",
+      "color": "#749BF8"
+    },
+    {
+      "id": 6,
+      "nameRu": "Казань",
+      "nameEn": "Kazan",
+      "fontSize": "160",
+      "color": "#FFC8EF"
+    },
+    {
+      "id": 7,
+      "nameRu": "Владимир",
+      "nameEn": "Vladimir",
+      "fontSize": "160",
+      "color": "#FFD2C8"
+    },
+    {
+      "id": 8,
+      "nameRu": "Новосибирск",
+      "nameEn": "Novosibirsk",
+      "fontSize": "120",
+      "color": "#A2E3FF"
+    },
+    {
+      "id": 9,
+      "nameRu": "Томск",
+      "nameEn": "Tomsk",
+      "fontSize": "160",
+      "color": "#C8CCDC"
+    },
+    {
+      "id": 10,
+      "nameRu": "Красноярск",
+      "nameEn": "Krasnoyarsk",
+      "fontSize": "120",
+      "color": "#0BC5D1"
+    },
+    {
+      "id": 11,
+      "nameRu": "Владивосток",
+      "nameEn": "Vladivostok",
+      "fontSize": "120",
+      "color": "#9EE2A8"
+    },
+    {
+      "id": 12,
+      "nameRu": "Сочи",
+      "nameEn": "Sochi",
+      "fontSize": "160",
+      "color": "#C8EC62"
+    },
+    {
+      "id": 13,
+      "nameRu": "Краснодар",
+      "nameEn": "Krasnodar",
+      "fontSize": "140",
+      "color": "#CCCD9E"
+    }
+  ]
+}

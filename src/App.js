@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import './App.css';
+import CreateCity from './pages/CreateCity';
+import { WatchCities } from './pages/WatchCities';
+import ChangeCity from './pages/ChangeCity';
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route path='/home'>
+          <WatchCities />
+        </Route>
+        <Route path='/createcity'>
+          <CreateCity />
+        </Route>
+        <Route path='/changecity/:id'>
+          <ChangeCity />
+        </Route>
+      </Switch>
+      <Redirect to='/home' />
+    </Router>
   );
 }
 
