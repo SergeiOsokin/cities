@@ -43,9 +43,9 @@ export const WatchCities = () => {
     useEffect(() => {
         getCities(pageQwe);
         request(`http://localhost:3001/cities`)
-            .then((res) => {
-                setCountPages(Math.ceil(res.length / limit));
-            })
+            // .then((res) => {
+            //     setCountPages(Math.ceil(res.length / limit));
+            // })
     }, [getCities, request])
 
     function newCity() {

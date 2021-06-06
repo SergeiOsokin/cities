@@ -5,14 +5,14 @@
       "nameRu": "Москва",
       "nameEn": "Moscow",
       "fontSize": "160",
-      "color": "#F56F6F"
+      "color": "#A2E3FF"
     },
     {
       "id": 2,
       "nameRu": "Санкт-Петербург",
       "nameEn": "Piter",
       "fontSize": "100",
-      "color": "#ECAC62"
+      "color": "#F56F6F"
     },
     {
       "id": 3,
@@ -90,6 +90,41 @@
       "nameEn": "Krasnodar",
       "fontSize": "140",
       "color": "#CCCD9E"
+    },
+    {
+      "nameRu": "Цвет",
+      "nameEn": "Color",
+      "fontSize": "160",
+      "color": "#C8CCDC",
+      "id": 14
+    },
+    {
+      "nameRu": "Лиза",
+      "nameEn": "Liza",
+      "fontSize": "120",
+      "color": "#CA8BA9",
+      "id": 15
+    },
+    {
+      "nameRu": "",
+      "nameEn": "",
+      "fontSize": "160",
+      "color": "",
+      "id": 16
+    },
+    {
+      "nameRu": "Qwe",
+      "nameEn": "",
+      "fontSize": "160",
+      "color": "",
+      "id": 17
+    },
+    {
+      "nameRu": "",
+      "nameEn": "",
+      "fontSize": "120",
+      "color": "",
+      "id": 18
     }
   ]
 }
